@@ -1,0 +1,13 @@
+{
+  "name": "dsh-project-scout",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "scan_project tool (language stats + LOC + TODO/FIXME) for DeepSeek Harness.",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml"],
+  "keywords": ["dsh-plugin", "deepseek-harness", "code-analysis"],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

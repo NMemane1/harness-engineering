@@ -1,0 +1,5 @@
+# Layer applied when a profile installs this bundle.
+# The row references the package by name so Node resolution finds the code.
+- insert:
+    - id: second-brain
+      name: dsh-second-brain

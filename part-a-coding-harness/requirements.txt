@@ -1,0 +1,2 @@
+# None! The harness uses only the Python standard library (urllib, json, subprocess).
+# Python 3.8+ is all you need.

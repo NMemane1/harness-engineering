@@ -1,0 +1,13 @@
+{
+  "name": "dsh-second-brain",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Persistent memory (remember/recall tools) for DeepSeek Harness.",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml"],
+  "keywords": ["dsh-plugin", "deepseek-harness", "memory"],
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

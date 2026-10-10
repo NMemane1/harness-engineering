@@ -1,0 +1,15 @@
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# node
+node_modules/
+# secrets / env
+.env
+*.local.yml
+# autoresearch run outputs (regenerated)
+part-c-ml-autoresearch/runs/
+# second-brain store
+.dsh-second-brain.json
+# os
+.DS_Store
